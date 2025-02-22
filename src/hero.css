@@ -1,0 +1,95 @@
+/*Hero section*/
+.hero-section {
+    /*width: 1440px;*/
+    height: 524px;
+    padding-top: 120px;
+    text-align: center;
+    background-image: url('../assets/big_snow.png'), url('../assets/big-ball.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.hero-section__upper-text {
+    margin-bottom: 12px;
+}
+
+.text,
+.slider-text,
+.gifts-text {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.1px;
+    color: #fff;
+}
+
+.hero-section__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+.title__part-one {
+    display: inline-block;
+    width: 420px;
+    letter-spacing: 6px;
+}
+
+.title__part-two {
+    display: inline-block;
+    width: 440px;
+}
+
+.title__part-three {
+    letter-spacing: 6px;
+    margin-left: 3.6px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 5.9px;
+    color: #fff;
+}
+
+.hero-section__button {
+    margin-bottom: 12px;
+}
+
+.btn {
+    width: 235px;
+    height: 56px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 0.7px;
+    background-color: #181c29;
+    border-radius: 20px;
+    border: #181c29;
+    color: #fff;
+
+}
+
+button {
+    transition: 2s;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #181c29;
+    border: none;
+}

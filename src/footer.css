@@ -1,0 +1,125 @@
+/*Footer*/
+
+.footer__wrapper {
+    padding: 60px 82px;
+}
+
+.phone,
+.mail,
+.link-map {
+    text-decoration: none;
+    color: #181c29;
+}
+
+
+.cards__wrapper {
+
+    display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+
+.phone, .link-map, .mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 204px;
+    width: 417.33px;
+    background-color: rgba(236, 243, 248, 1);
+    gap: 12px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card__image {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+
+
+.title-card:hover {
+    color: #ff4646;
+}
+
+.card:hover {
+    color: #ff4646;
+}
+
+.icon:hover {
+    fill: #ff4646;
+}
+
+a svg:hover path {
+    stroke: #be1818;
+}
+
+.text-footer:hover {
+    color: #ff4646;
+}
+
+.phone-number,
+.title-card,
+.title-card {
+    margin-bottom: 9px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36.48px;
+    letter-spacing: 3.8px;
+    text-align: center;
+}
+
+.active {
+    color: #ff4646;
+}
+
+.text-card {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24.32px;
+    letter-spacing: 0.9px;
+    text-align: center;
+}
+
+.footer__icons {
+    padding-top: 69px;
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    margin-bottom: 15px;
+}
+
+.footer__copyright-block {
+    margin-bottom: 10px;
+}
+
+.copyright__text {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.68px;
+    text-align: center;
+}
+
+.footer__text {
+    cursor: pointer;
+}
+
+.text-footer {
+    display: block;
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #181c29;
+    text-align: center;
+    text-decoration: none;
+}
+
