@@ -6,6 +6,7 @@
 @import "./header.css";
 @import "./gifts.css";
 @import "./adaptive.css";
+@import "../modalCard.css";
 
 * {
     margin: 0;
