@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="image/x-icon" href="./assets/snowflake.svg" rel="shortcut icon">
-    <link rel="stylesheet" href="./src/style.css">
     <title>Christmas shop</title>
 </head>
 <body class="body">
@@ -62,5 +61,96 @@
             </div>
         </div>
     </header>
+    <main class="main">
+        <div class="modal-window">
+            <div class="modal-window__wrapper">
+                <div class="modal-window__inner-wrapper">
+                    <img class="modal-window__cross" src="./assets/close.png" alt="cross">
+                    <div class="img__wrapper">
+                        <img class="gift__img" id="img-card" src="./assets/magic-image.png" alt="gift picture">
+                    </div>
+                    <div class="modal-window__description-wrapper">
+                        <div class="modal-window__description">
+                            <div class="modal-window__title-wrapper">
+                                <h4 class="modal-window__title modal-window__title_${elem.color}" id="title">FOR WORK</h4>
+                            </div>
+                            <div class="modal-window__subtitle-wrapper">
+                                <h3 class="modal-window__subtitle" id="subtitle">Console.log</h3>
+                            </div>
+                            <div class="modal-window__subdescription">
+                                <p class="subdescription__text" id="description">Uses console.log like a crystal ball to find any
+                                    issue.</p>
+                            </div>
+                        </div>
+                        <div class="modal-window__superpowers">
+                            <div class="superpowers__wrapper">
+                                <div class="superpowers__title-wrapper">
+                                    <h4 class="superpowers__title">ADDS SUPERPOWERS TO:</h4>
+                                </div>
+                                <div class="superpowers">
+                                    <div class="superpower">
+                                        <p class="superpower__name">Live</p>
+                                        <p class="superpower__score" id="live-score">+500</p>
+                                        <div class="superpower__visual-score" id="live-visual">* * *</div>
+                                    </div>
+                                    <div class="superpower">
+                                        <p class="superpower__name">Create</p>
+                                        <p class="superpower__score" id="create-score">+500</p>
+                                        <div class="superpower__visual-score" id="create-visual">* * * * *</div>
+                                    </div>
+                                    <div class="superpower">
+                                        <p class="superpower__name">Love</p>
+                                        <p class="superpower__score" id="love-score">+400</p>
+                                        <div class="superpower__visual-score" id="love-visual">* * * *</div>
+                                    </div>
+                                    <div class="superpower">
+                                        <p class="superpower__name">Dream</p>
+                                        <p class="superpower__score" id="dream-score">+300</p>
+                                        <div class="superpower__visual-score" id="dream-visual">* * *</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Блок с карточками подарков-->
+        <div class="gifts-section__wrapper">
+            <div class="gifts-section__inner-first-wrapper">
+                <div class="gifts-section__title">
+                    <div class="title__wrapper">
+                        <h1 class="title">ACHIEVE HEALTH, HARMONY, AND <span class="header-span">INNER STRENGTH</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="gift-section__menu">
+                    <div class="menus">
+                        <div class="menu-link menu-round" id="all">ALL</div>
+                        <div class="menu-link menu-hover" id="work">FOR WORK</div>
+                        <div class="menu-link menu-hover" id="health">FOR HEALTH</div>
+                        <div class="menu-link menu-hover" id="harmony">FOR HARMONY</div>
+                    </div>
+                </div>
+            </div>
+            <div class="gifts-section__inner-second-wrapper">
+                <!--ЛИНИЯ ПОДАРКОВ-->
+                <div class="gift-section__second-wrapper">
+
+                </div>
+            </div>
+            <div class="main__button">
+                <div class="button-wrapper">
+                    <button class="btn" onclick="scrollToTopFunction()" id="scrollBtn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 5V19" stroke="#FF4646" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18 11L12 5" stroke="#FF4646" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6 11L12 5" stroke="#FF4646" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
