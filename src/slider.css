@@ -1,0 +1,107 @@
+/*Slider Section*/
+.slider-section__wrapper {
+    background: url("../assets/big_snow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.slider-text {
+    padding-bottom: 12px;
+}
+
+.slider-text,
+.subtitle {
+    color: white;
+    text-align: center;
+}
+
+.slider-section__second-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    user-select: none;
+    justify-content: start;
+    height: 200px;
+
+}
+
+.slogan-image {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.slogan__text {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 97.52px;
+    color: #fff;
+}
+
+.subtitle,
+.cta-title {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36.48px;
+    letter-spacing: 3.8px;
+    color: #fff;
+}
+
+/*arrow left, arrow right*/
+
+.slider-section__arrow-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 82px;
+
+
+}
+
+.slider-section__arrow-left,
+.slider-section__arrow-right {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #ff4646;
+}
+
+.slider-section__arrow-left {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.slider-section__arrow-right {
+    border: 1px solid #fff;
+}
+
+.slider-section__arrow-left,
+.slider-section__arrow-right {
+    cursor: pointer;
+}
+
+.slider-section__arrow-right:hover {
+    background-color: #fff;
+
+}
+
+
+
+.slider-section__arrow-right svg:hover path {
+    stroke: #ff4646;
+}
+
+.arrow-img {
+    display: inline-block;
+}
