@@ -1,0 +1,114 @@
+@media screen and (max-width: 1007px) {
+
+    .footer__wrapper{
+        padding: 60px 8px;
+    }
+
+    .phone, .link-map, .mail{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__container {
+        padding: 0 8px;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .slider-section__second-wrapper {
+        padding: 0 0 0 8px;
+    }
+
+    .slider-section__arrow-wrapper{
+        padding:  0 8px 0 0 ;
+    }
+
+    .gifts-section{
+        padding: 60px 8px;
+    }
+
+    .footer__wrapper{
+        padding: 60px 8px;
+    }
+
+    .phone, .link-map, .mail{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .title__part-one,
+    .title__part-two{
+   width: 100%;
+    }
+.about-section__inner-wrapper{
+    flex-direction: column;
+    height: 880px;
+}
+
+.about-section__description{
+    width: 100%;
+}
+
+.title-about{
+    width: 100%;
+}
+
+.about-text__wrapper {
+    margin: 60px 20px;
+    max-width: 100%;
+  }
+
+  .about-section__image{
+    width: 100%;
+  }
+
+  .about-section__text,
+  .about-section__title,
+  .text-about,
+  .title-about {
+    max-width: 100%;
+}
+
+.cta-title,
+.cta-section__title
+{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 380px) {
+    .slider-section__arrow-right:hover {
+      background-color: #ff4646;
+
+    }
+
+    .slider-section__arrow-right svg:hover path {
+        stroke: white;
+    }
+
+
+    .link-hover:hover {
+        border-radius: 12px;
+        background-color: white;
+        color: #181c29;
+    }
+    .gift-section__inner-wrapper:hover {
+        color: #181c29;
+    }
+
+    .btn:hover {
+        background-color: #181c29;
+        color: #fff;
+        border: none;
+    }
+  }

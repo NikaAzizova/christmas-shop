@@ -10,6 +10,7 @@
 @import "./slider.css";
 @import "./mainPageGifts.css";
 @import "./cta.css";
+@import "./adaptive.css";
 
 * {
   margin: 0;
