@@ -1,0 +1,86 @@
+/*CTA SECTION*/
+
+.cta-section__wrapper {
+    background: url("../assets/big_snow.png") no-repeat center,
+        url("../assets/forest.png") no-repeat bottom;
+    background-size: cover;
+   padding: 180px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cta-section__title,
+.cta-section__button {
+    text-align: center;
+}
+
+.cta-section__title {
+    width: 426px;
+    margin: 0 auto;
+}
+
+.cta-section {
+
+    text-align: center;
+}
+.cta-section__text{
+    padding-bottom: 8px;
+}
+
+.cta-section__timestamp {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 344px;
+    height: 72px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.timestamp__days,
+.timestamp__hours,
+.timestamp__minutes,
+.timestamp__seconds {
+    width: 80px;
+    height: 52px;
+}
+
+.cta-section__line {
+    position: relative;
+}
+
+.cta-section__line:before {
+    content: " ";
+    background: rgba(255, 255, 255, 0.5);
+    ;
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    top: 22px;
+
+}
+
+.number {
+    padding-top: 8px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36.48px;
+    letter-spacing: 3.8px;
+    color: #fff;
+}
+
+.days-text,
+.hours-text,
+.minutes-text,
+.seconds-text {
+    padding-bottom: 2px;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.6px;
+    letter-spacing: 0.9px;
+    color: #fff;
+}

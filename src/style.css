@@ -9,6 +9,7 @@
 @import "./about.css";
 @import "./slider.css";
 @import "./mainPageGifts.css";
+@import "./cta.css";
 
 * {
   margin: 0;
