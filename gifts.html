@@ -7,7 +7,60 @@
     <link rel="stylesheet" href="./src/style.css">
     <title>Christmas shop</title>
 </head>
-<body>
-    
+<body class="body">
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__icon" onclick="location.href='./index.html'">
+                <div class="icon">
+                    <img src="./assets/snowflake.svg" alt="logo snowflake" class="icon__img">
+                </div>
+                <div class="header__logo-name">
+                    <p class="logo-name">THE GIFTS</p>
+                </div>
+            </div>
+
+            <div class="header__nav">
+                <nav class="nav">
+                    <ul class="menu">
+                        <li class="menu__link"><a class="link link-gift" href="#">GIFTS</a></li>
+                        <li class="menu__link"><a class="link link-hover" href="./index.html#about">ABOUT</a></li>
+                        <li class="menu__link"><a class="link link-hover" href="./index.html#gifts">BEST</a></li>
+                        <li class="menu__link"><a class="link link-hover" href="#contacts">CONTACTS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="burger-menu">
+                <div class="header__burger">
+                    <div class="burger__wrapper">
+                        <div class="burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Содержимое модального окна -->
+            <div class="modal-block">
+                <div class="burger-menu__menu">
+                    <nav class="burger-menu__navigation">
+                        <ul class="burger-menu__links">
+                            <li class="burger-menu__link">
+                                <a href="./gifts.html" class="link-a">GIFTS</a>
+                            </li>
+                            <li class="burger-menu__link" id="link2">
+                                <a href="./index.html#about" class="link-a">ABOUT</a>
+                            </li>
+                            <li class="burger-menu__link" id="link3">
+                                <a href="./index.html#gifts" class="link-a">BEST</a>
+                            </li>
+                            <li class="burger-menu__link" id="link4">
+                                <a href="#contacts" class="link-a">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
