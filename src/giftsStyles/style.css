@@ -5,6 +5,7 @@
 
 @import "./header.css";
 @import "./gifts.css";
+@import "./adaptive.css";
 
 * {
     margin: 0;

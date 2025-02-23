@@ -1,0 +1,85 @@
+@media screen and (max-width: 1010px) {
+
+    .footer__wrapper{
+        padding: 60px 8px;
+    }
+
+    .phone, .link-map, .mail{
+        width: 100%;
+    }
+
+    .gifts__wrapper, .title{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__container {
+        padding: 0 8px;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .burger-menu{
+        display: block;
+    }
+    .gifts-section__wrapper{
+        padding: 60px 8px;
+    }
+
+    .gifts-section{
+        padding: 60px 8px;
+    }
+
+    .footer__wrapper{
+        padding: 60px 8px;
+    }
+
+    .phone, .link-map, .mail{
+        width: 100%;
+    }
+
+    .main__button{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .menu-link {
+        padding: 12px 8px;
+}
+
+.menus{
+    gap: 0;
+}
+
+.menu-hover:hover {
+    background-color: #ff4646;
+    color: #fff;
+    cursor: default;
+}
+
+.gift-section__inner-wrapper:hover {
+    color: #181c29;
+}
+
+.card:hover{
+    color: #181c29;
+}
+
+.phone-card:hover{
+    color: #181c29;
+}
+
+.phone-number:hover{
+    color: #181c29;
+}
+
+.title-card:hover{
+    color: #181c29;
+}
+}
