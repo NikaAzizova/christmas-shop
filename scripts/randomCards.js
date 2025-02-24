@@ -480,9 +480,6 @@ const cardTwo = info[randomIndexTwo];
 const cardThree = info[randomIndexThree];
 const cardFour = info[randomIndexFour];
 
-console.log(info[randomIndexOne]+ '='+ randomIndexOne,
-     info[randomIndexTwo] + '='+ randomIndexTwo, info[randomIndexThree]+ '='+ randomIndexTwo, info[randomIndexFour]+ '='+ randomIndexTwo);
-
 
 window.addEventListener('load', function () {
     const giftSection = document.querySelector('.gift-section__second-wrapper');
